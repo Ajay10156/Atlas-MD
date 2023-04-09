@@ -38,13 +38,13 @@ if (!gg) {
 // -------------------------------------------------------------- //
 
 
-global.owner = gg.split(",");
+global.owner = gg.split("AJAY");
 global.mongodb = process.env.MONGODB || "mongodb+srv://fantox:xrto71r@cluster0.dnlowts.mongodb.net/?retryWrites=true&w=majority";
 global.sessionId = process.env.SESSION_ID || "ok";
 global.prefa = process.env.PREFIX || "-";
 global.tenorApiKey =
   process.env.TENOR_API_KEY || "AIzaSyCyouca1_KKy4W_MG1xsPzuku5oa8W358c";
-global.packname = process.env.PACKNAME || `Atlas MD`;
+global.packname = process.env.PACKNAME || `AJAY`;
 global.author = process.env.AUTHOR || "by: Team Atlas";
 global.port = process.env.PORT || "8000";
 
